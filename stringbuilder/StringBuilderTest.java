@@ -4,6 +4,8 @@ import java.util.HashMap;
 
 /**
  * StringBuilder 演示程序
+ * StringBuilder 也是继承于AbstractStringBuilder的子类；
+ * 但是，StringBuilder和StringBuffer不同，前者是非线程安全的，后者是线程安全的
  * @author fanwei
  *
  */
